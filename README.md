@@ -22,7 +22,7 @@ This e-commerce website [www.traitlets.shop](https://www.traitlets.shop) is a pl
 
 1. **Clone the Repository**
    ```
-   git clone [repository URL]
+   git clone https://github.com/alexcholmsky/Traitlets.git
    ```
 
 2. **Install Dependencies**
@@ -44,11 +44,11 @@ This e-commerce website [www.traitlets.shop](https://www.traitlets.shop) is a pl
 4. **Running the Application**
    - Frontend:
      ```
-     npm start
+     npm run dev     
      ```
    - Backend:
      ```
-     node server.js
+     npm run dev     
      ```
 
 ## Usage
