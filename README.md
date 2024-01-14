@@ -8,7 +8,7 @@ This e-commerce website [www.traitlets.shop](www.traitlets.shop) is a platform f
 ### 3D Bracelet Design Tool
 - **Technology:** Utilizes Three.js for 3D modeling.
 - **Functionality:** Allows clients to design their own custom bracelets.
-  - Users can choose materials, colors, and patterns.
+  - Users can choose materials, colorus, and patterns.
   - Real-time 3D visualization of design choices.
   - Option to save and edit designs.
 - **User Interface:** Intuitive controls integrated within the React.js frontend.
