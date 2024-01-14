@@ -1,7 +1,7 @@
-# README
+we# README
 
 ## Overview
-This e-commerce website [www.traitlets.shop](www.traitlets.shop) is a platform for custom bracelet design. It leverages React.js for the frontend and Node.js for the backend, ensuring a seamless and responsive user experience.
+This e-commerce website [www.traitlets.shop](https://www.traitlets.shop) is a platform for custom bracelet design. It leverages React.js for the frontend and Node.js for the backend, ensuring a seamless and responsive user experience.
 
 ## Key Features
 
