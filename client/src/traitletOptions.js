@@ -10,10 +10,9 @@ const traitletOptions = {
             "image":"/images/black-wood.png",
         },
         {
-            "id":"ivory-pearl",
-            "name":"Ivory Pearl",
-            "hex":"#e5ceb5",
-            "image":"/images/white-pearl.png",
+            "id":"white-pearl2",
+            "name":"White Pearl",
+            "image":"./images/white-pearl2.png",
         },
     ],
     "accessory-beads": [
