@@ -59,13 +59,6 @@ const OrderSummary = () => {
                 <p>Shipping</p>
                 <p>+ $2.00</p>
             </div>
-            {/* design is null if none is selected */}
-            {braceletDetails.braceletDetails['centerpiece']['front-side']['design'] && braceletDetails.braceletDetails['centerpiece']['back-side']['design'] &&
-                <div className='px-4 flex text-base text-gray-500 justify-between'>
-                    <p>Additional custom design</p>
-                    <p>+ $5.00</p>
-                </div>
-            }
             <hr className='mt-4'/>
             <div className='py-4 px-4 flex justify-between'>
                 <p>Total</p>

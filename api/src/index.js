@@ -6,7 +6,7 @@ require('dotenv').config();
 
 const cors = require('cors');
 const corsOptions = {
-  origin: ['http://localhost:5173', 'https://traitlets-fe.onrender.com'],
+  origin: ['http://localhost:5173', 'https://traitlets-fe.onrender.com', 'https://traitlets.onrender.com','https://traitlets.shop'],
   optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 // Enable CORS for the specified origin
