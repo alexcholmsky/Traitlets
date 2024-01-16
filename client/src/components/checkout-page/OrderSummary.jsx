@@ -53,7 +53,7 @@ const OrderSummary = () => {
             <hr className='mb-4 border'/>
             <div className='px-4 flex text-base text-gray-500 justify-between'>
                 <p>Standard Traitlet</p>
-                <p>+ $22.00</p>
+                <p>+ $20.00</p>
             </div>
             <div className='px-4 flex text-base text-gray-500 justify-between'>
                 <p>Shipping</p>
