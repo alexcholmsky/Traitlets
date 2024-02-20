@@ -62,7 +62,7 @@ const OrderSummary = () => {
             <hr className='mt-4'/>
             <div className='py-4 px-4 flex justify-between'>
                 <p>Total</p>
-                <p>${((checkoutPrice || 0) + 2).toFixed(2)}</p>
+                <p>${((checkoutPrice || 0)).toFixed(2)}</p>
             </div>
             <hr className='border'/>
         </div>
