@@ -160,6 +160,11 @@ const traitletOptions = {
             "name":"Euphonium",
             "image":"./images/unedited-traitlet-icons/Euphonium.png",
         },   
+        {
+            "id":"coffin",
+            "name":"Coffin",
+            "image":"./images/unedited-traitlet-icons/Coffin.png",
+        },  
     ],
     "size": [
         {"name":'XS', "size":'16 cm'},
