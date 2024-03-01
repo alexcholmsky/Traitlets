@@ -166,6 +166,11 @@ const traitletOptions = {
             "image":"./images/unedited-traitlet-icons/Coffin.png",
         }, 
         {
+            "id":"aries",
+               "name":"Aries",
+               "image":"./images/unedited-traitlet-icons/Aries.png",
+           },
+        {
         "id":"taurus",
            "name":"Taurus",
            "image":"./images/unedited-traitlet-icons/Taurus.png",
