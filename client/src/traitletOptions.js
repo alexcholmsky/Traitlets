@@ -164,7 +164,62 @@ const traitletOptions = {
             "id":"coffin",
             "name":"Coffin",
             "image":"./images/unedited-traitlet-icons/Coffin.png",
-        },  
+        }, 
+        {
+        "id":"taurus",
+           "name":"Taurus",
+           "image":"./images/unedited-traitlet-icons/Taurus.png",
+       },
+       {
+           "id":"gemini",
+           "name":"Gemini",
+           "image":"./images/unedited-traitlet-icons/Gemini.png",
+       },
+       {
+           "id":"cancer",
+           "name":"Cancer",
+           "image":"./images/unedited-traitlet-icons/Cancer.png",
+       },
+       {
+           "id":"leo",
+           "name":"Leo",
+           "image":"./images/unedited-traitlet-icons/Leo.png",
+       },
+       {
+           "id":"virgo",
+           "name":"Virgo",
+           "image":"./images/unedited-traitlet-icons/Virgo.png",
+       },
+       {
+           "id":"libra",
+           "name":"Libra",
+           "image":"./images/unedited-traitlet-icons/Libra.png",
+       },
+       {
+           "id":"scorpio",
+           "name":"Scorpio",
+           "image":"./images/unedited-traitlet-icons/Scorpio.png",
+       },
+       {
+           "id":"sagittarius",
+           "name":"Sagittarius",
+           "image":"./images/unedited-traitlet-icons/Sagittarius.png",
+       },
+       {
+           "id":"capricorn",
+           "name":"Capricorn",
+           "image":"./images/unedited-traitlet-icons/Capricorn.png",
+       },
+       {
+           "id":"aquarius",
+           "name":"Aquarius",
+           "image":"./images/unedited-traitlet-icons/Aquarius.png",
+       },
+       {
+           "id":"pisces",
+           "name":"Pisces",
+           "image":"./images/unedited-traitlet-icons/Pisces.png",
+       },
     ],
     "size": [
         {"name":'XS', "size":'16 cm'},
