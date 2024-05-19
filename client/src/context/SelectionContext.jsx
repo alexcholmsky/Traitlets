@@ -67,7 +67,6 @@ const SelectionContextProvider = ({ children }) => {
         // Make sure the centerpiece object exists before updating
         tempBraceletInfo.braceletDetails.centerpiece = tempBraceletInfo.braceletDetails.centerpiece || {};
         tempBraceletInfo.braceletDetails.centerpiece[side] = design;
-        console.log(tempBraceletInfo.braceletDetails.centerpiece[side])
       } 
       else {
         console.error("Error with addToOrder");
@@ -77,10 +76,7 @@ const SelectionContextProvider = ({ children }) => {
     });
   };
   
-  
-  useEffect(() => {
-    console.log('Bracelet Details Updated:', braceletDetails);
-  }, [braceletDetails]); // Run the effect whenever braceletDetails changes
+
 
   const isStepOptional = (step) => {
     return step === null;
@@ -160,7 +156,6 @@ const SelectionContextProvider = ({ children }) => {
       if(event.target.value.length < 8){
         setEngravingText(event.target.value);
         addCenterpieceToOrder(event.target.value)
-        console.log(event.target.value)
       }
       else{
         toast.warn("Max 7 characters", {
@@ -179,7 +174,6 @@ const SelectionContextProvider = ({ children }) => {
       if(event.target.value.length < 8){
         setBackEngravingText(event.target.value);
         addCenterpieceToOrder(event.target.value)
-        console.log(event.target.value)
       }
       else{
         toast.warn("Max 7 characters", {
@@ -202,25 +196,24 @@ const SelectionContextProvider = ({ children }) => {
           'image': null
       }
 
-      if(type == 'none'){
+      if(val == 'none'){
           details.type = 'none'
           details.design = 'none'
           details.image = 'none'
       }
-      else if(type == 'icon'){
+      else if(val == 'icon'){
           details.type = 'icon'
           details.design = val.name
           details.image = val.image
       }
-      else if(type == 'text'){
+      else if(val == 'text'){
           details.type = 'text'
           details.design = (centerpieceSide == 'front-side' ? engravingText : backEngravingText)
           details.image = null
       }
       else{
-          console.log('error with centerpiece selection')
+          console.error('error with centerpiece selection')
       }
-      console.log("details", details)
 
       addToOrder(val, centerpieceSide, details)
   }
