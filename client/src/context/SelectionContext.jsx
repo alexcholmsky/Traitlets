@@ -101,7 +101,7 @@ const SelectionContextProvider = ({ children }) => {
         setSelectionTitle('Accessory Beads')
       break;
       case 'centerpiece':
-        setOptions(traitletOptions['centerpiece'])
+        setOptions(traitletOptions['centerpiece']['zodiac-signs'])
         setSelectionTitle('Centrepiece')
       break;
       case 'size':
@@ -134,7 +134,7 @@ const SelectionContextProvider = ({ children }) => {
     else{
       toast.warn("Please make a selection to proceed", {
         position: "top-right",
-        autoClose: 3000, // Close the toast after 3 seconds
+        autoClose: 2000, // Close the toast after 3 seconds
         hideProgressBar: true,
         closeOnClick: true,
         pauseOnHover: true,
@@ -165,7 +165,7 @@ const SelectionContextProvider = ({ children }) => {
       else{
         toast.warn("Max 7 characters", {
           position: "top-right",
-          autoClose: 3000, // Close the toast after 3 seconds
+          autoClose: 2000, // Close the toast after 3 seconds
           hideProgressBar: true,
           closeOnClick: true,
           pauseOnHover: true,
@@ -228,7 +228,7 @@ const SelectionContextProvider = ({ children }) => {
 
   return (
     <SelectionContext.Provider value={{ state, dispatch, activeStep, setActiveStep, skipped, setSkipped, isStepOptional, isStepSkipped,  
-       handleBack, handleNext, steps, options, selectionTitle, addToOrder, braceletDetails, centerpieceSide, setCenterpieceSide, stepCompleted,
+       handleBack, handleNext, steps, options, setOptions, selectionTitle, addToOrder, braceletDetails, centerpieceSide, setCenterpieceSide, stepCompleted,
        handleEngravingChange, engravingText, setEngravingText, addCenterpieceToOrder, type, setType, backEngravingText, setBackEngravingText, handleBackEngravingChange,
        checkoutPrice, setCheckoutPrice }}>
       {children}

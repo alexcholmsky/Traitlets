@@ -73,7 +73,7 @@ const traitletOptions = {
         },
 
     ],
-    "centerpiece": [
+    "centerpiece1": [
         //may require specific image sizes
         {
             "id":"blm_fist",
@@ -226,6 +226,102 @@ const traitletOptions = {
            "image":"./images/unedited-traitlet-icons/Pisces.png",
        },
     ],
+    "centerpiece": {
+        "zodiac-signs": [
+            {
+                "id":"aries",
+                   "name":"Aries",
+                   "image":"./images/unedited-traitlet-icons/Aries.png",
+               },
+            {
+            "id":"taurus",
+               "name":"Taurus",
+               "image":"./images/unedited-traitlet-icons/Taurus.png",
+           },
+           {
+               "id":"gemini",
+               "name":"Gemini",
+               "image":"./images/unedited-traitlet-icons/Gemini.png",
+           },
+           {
+               "id":"cancer",
+               "name":"Cancer",
+               "image":"./images/unedited-traitlet-icons/Cancer.png",
+           },
+           {
+               "id":"leo",
+               "name":"Leo",
+               "image":"./images/unedited-traitlet-icons/Leo.png",
+           },
+           {
+               "id":"virgo",
+               "name":"Virgo",
+               "image":"./images/unedited-traitlet-icons/Virgo.png",
+           },
+           {
+               "id":"libra",
+               "name":"Libra",
+               "image":"./images/unedited-traitlet-icons/Libra.png",
+           },
+           {
+               "id":"scorpio",
+               "name":"Scorpio",
+               "image":"./images/unedited-traitlet-icons/Scorpio.png",
+           },
+           {
+               "id":"sagittarius",
+               "name":"Sagittarius",
+               "image":"./images/unedited-traitlet-icons/Sagittarius.png",
+           },
+           {
+               "id":"capricorn",
+               "name":"Capricorn",
+               "image":"./images/unedited-traitlet-icons/Capricorn.png",
+           },
+           {
+               "id":"aquarius",
+               "name":"Aquarius",
+               "image":"./images/unedited-traitlet-icons/Aquarius.png",
+           },
+           {
+               "id":"pisces",
+               "name":"Pisces",
+               "image":"./images/unedited-traitlet-icons/Pisces.png",
+           },
+        ],
+        "sports": [
+            {
+                "id":"basketball",
+                "name":"Basketball",
+                "image":"./images/unedited-traitlet-icons/Basketball.png",
+            },
+            {
+                "id":"cross_skis",
+                "name":"Cross Skis",
+                "image":"./images/unedited-traitlet-icons/Cross_skis.png",
+            },
+            {
+                "id":"football",
+                "name":"Football",
+                "image":"./images/unedited-traitlet-icons/Football.png",
+            },
+            {
+                "id":"ballet_shoes",
+                "name":"Ballet Shoes",
+                "image":"./images/unedited-traitlet-icons/ballet_shoes.png",
+            },
+            {
+                "id":"snowboard",
+                "name":"Snowboard",
+                "image":"./images/unedited-traitlet-icons/snowboard.png",
+            },
+            {
+                "id":"soccer",
+                "name":"Soccer Ball",
+                "image":"./images/unedited-traitlet-icons/soccer_ball.png",
+            },
+        ]
+    },
     "size": [
         {"name":'XS', "size":'16 cm'},
         {"name":'S', "size":'16.5 cm'},
