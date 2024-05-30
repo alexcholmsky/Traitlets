@@ -196,12 +196,14 @@ const SelectionContextProvider = ({ children }) => {
           'image': null
       }
 
+      console.log(val, type)
+
       if(val == 'none'){
           details.type = 'none'
           details.design = 'none'
           details.image = 'none'
       }
-      else if(val == 'icon'){
+      else if(val?.image){
           details.type = 'icon'
           details.design = val.name
           details.image = val.image
